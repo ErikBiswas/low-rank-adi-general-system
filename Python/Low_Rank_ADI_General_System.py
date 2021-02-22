@@ -21,10 +21,10 @@ class lradi:
  
     def lradi_cg(self):
         
-        myF2=sio.loadmat('C:\\Users\\Erik\\Documents\\MATLAB\\Monir Sir\\First files\\CDPlayer.mat')
-        #myF2=sio.loadmat('D:\\STUDY MATERIAL\\MONIR SIR\\LR_ADI General System\\NumPy\\beamm.mat')
-        #myF2=sio.loadmat('D:\\STUDY MATERIAL\\MONIR SIR\\LR_ADI General System\\NumPy\\eady.mat')
-        #myF2=sio.loadmat('D:\\STUDY MATERIAL\\MONIR SIR\\LR_ADI General System\\NumPy\\build.mat')
+        myF2=sio.loadmat('C:\\Users\\Erik\\Documents\\MATLAB\\CDPlayer.mat')
+        #myF2=sio.loadmat('D:\\STUDY MATERIAL\\LR_ADI General System\\NumPy\\beamm.mat')
+        #myF2=sio.loadmat('D:\\STUDY MATERIAL\\LR_ADI General System\\NumPy\\eady.mat')
+        #myF2=sio.loadmat('D:\\STUDY MATERIAL\\LR_ADI General System\\NumPy\\build.mat')
         
         A=myF2['A']
         B=myF2['B']
