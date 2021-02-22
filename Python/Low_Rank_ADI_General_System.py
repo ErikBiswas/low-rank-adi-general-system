@@ -237,7 +237,7 @@ class lradi:
         
        
         
-"""MAIN RUN COCE"""   
+"""MAIN RUN CODE"""   
 
 
 Zm = lradi()
